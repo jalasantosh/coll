@@ -1,0 +1,178 @@
+{this.state.something}
+
+th:text="${weather.time}"
+
+4a380c8135c658ba2b4eff2b77d86123
+
+Hibernate :
+uses HQL queries to turn them into native sql quries 
+based on dialect mentioned in configurations
+
+Sql:  select column_name from table_name;
+HQL: select attribute_name from class_name;
+
+
+
+
+JPA: 
+Gives annotations which is used for CRUD operations using
+java model objects.
+ex.
+@Table,@Column,@Entity
+
+
+select * from employees
+
+
+
+
+
+
+
+
+
+oneToMany
+
+
+
+manyToOne
+
+
+Reqiurement Gadering
+1. Forms -> fields -> types -> max characters
+===========================================
+1. user
+2. login
+3. Get payroll
+
+Screens:
+Add user: User can abot lo register using this screen
+user info:
+
+
+api-> userId -> 
+
+testcase -> userId=1->
+
+
+
+front end 
+
+signup page 
+email 
+username 
+password
+sigin 
+
+user details should be stored in db
+when he signs in he should automatically retrieve the information of his 
+previous payrolls he calculated 
+
+General Information
+Check Date
+07/17/2019
+State
+
+Gross Pay
+0
+Gross Pay Method
+
+Gross Pay YTD
+0
+Pay Frequency
+
+Exempt from
+
+Federal
+
+Fica
+
+Medicare
+Federal Information
+Federal Filing Status
+
+# of Federal Allowances
+0
+Additional Federal Withholding
+0
+Round Federal Withholding
+
+State Information
+State elected percentage rate
+
+Exempt State
+
+Additional State Withholding
+0
+
+
+
+Hibernate mappings
+oneToOne
+OneToMany -> table1 join to table_2 with table1.id = table2.id;
+
+user_table -> address_table
+
+
+
+ManyToMany ->
+
+Annotations
+- cascade types
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+front end to backend deploy flow
+
+frontend -> http call to a backend url -> it get a reponse -> uses that reponse to display view.
+
+backend-> recieves https request from front-end -> get json data sent from front-end -> 
+and returns the data as per requirements.
+
+
+tomcat or docker
+.war	
+
+EAR,JAR,WAR
+
+
+App.js------render
+
+var data = [];
+
+<ol>
+for(dat.length)
+{
+<li> data[i] </li>
+}
+
+this.data.map((val,i)=>{
+   <li> data[i] </li>
+})
+</ol>
+
+
+
+
+
+
+
+
+String,
+
+Object

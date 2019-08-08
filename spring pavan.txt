@@ -1,0 +1,89 @@
+If @Service or @Component is not defined it causes an 
+exception called NoSuchBeanDefinitionException
+
+Annotations:
+Dependency injection
+@Autowired
+@Componentscan
+@Component
+@Service
+
+
+1. Why spring got famous?
+- Pavan p = new Pavan();
+stackOverflow error.
+
+- don't create object from yourside let me create it just
+pass me name or id of the class for which you wnat to create
+an object.
+
+<xml>
+	<beans>
+		<bean name="pavan" id="" class="com.home.pavan.java" id>
+<attributes att="name" value="asdf"> </
+</bean>
+
+</xml>
+
+
+Pavan p = (Pavan) applicationContext.getClassByName("pavan");
+
+@Autowired
+Pavan p;
+
+There we Dependency Injection.
+Dependency injection is a design pattern
+
+Pavan p = new Pavan("asdfads");
+@Autowired
+Pavan p;
+
+So what is dependency injection?
+
+public class test {
+	
+print(){
+
+};
+run(){
+
+};
+}
+
+public interface test(){
+
+}
+public class testImpl implements test{
+
+}
+
+
+public void doSomething(str ){
+	tight coupling
+
+	sout(str);
+
+}
+
+doSomething("sds");
+
+
+
+spring : 
+spring mvc : 
+
+spring boot vs Spring old verion :
+
+maven pom.xml
+20-> web starter
+20-> Jpa starter
+
+xml -> java 
+
+
+
+
+
+
+
+Dependency Injection
